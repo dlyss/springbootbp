@@ -1,0 +1,45 @@
+##########  主数据源（默认）  ##########
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/webapi?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+  ##########  缓存  ##########
+  cache:
+    #缓存类型
+    type: redis
+  ##########  Redis  ##########
+  redis:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: 3000ms
+        min-idle: 0
+        max-total: 300
+    database: 0
+    host: 127.0.0.1
+    password:
+    port: 6379
+    timeout: 60ms
+##########  多数据源  ##########
+multiple:
+  datasource:
+  - key: webapp
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: "jdbc:mysql://127.0.0.1:3306/webapp?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false"
+    username: root
+    password: 123456
+  - key: webapi
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: "jdbc:mysql://127.0.0.1:3306/webapi?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false"
+    username: root
+    password: 123456
+##########  Mybatis  ##########
+mybatis:
+  config-location: "classpath:mybatis-config.xml"
+  type-aliases-package: com.wanglibing.webapi.pojo
