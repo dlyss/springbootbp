@@ -17,6 +17,7 @@ springbootbp是一个基于SpringBoot2.0的最佳实践。
 - 集成Mapper，并解决了Mapper的热部署报错问题
 - 集成PageHelper分页插件
 - 集成Redis
+- 集成Spring Cache
 - 标准REST接口
 - 默认支持跨域
 - 集成Swagger

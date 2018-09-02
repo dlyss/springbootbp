@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a83bfa-4047-4244-ad19-c753ac84cda1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2.0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="a1a83bfa-4047-4244-ad19-c753ac84cda1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -38,7 +33,7 @@
     <session id="-421165908">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -60,7 +55,7 @@
           <entry key="class" value="16" />
           <entry key="cmd" value="2" />
           <entry key="iml" value="4" />
-          <entry key="java" value="539" />
+          <entry key="java" value="540" />
           <entry key="md" value="2" />
           <entry key="mvnw" value="1" />
           <entry key="properties" value="15" />
@@ -73,7 +68,7 @@
         <counts>
           <entry key="CLASS" value="16" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="539" />
+          <entry key="JAVA" value="540" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="15" />
@@ -109,20 +104,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -270,7 +252,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535881627469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535881738932" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -481,7 +463,7 @@
       <workItem from="1535788932868" duration="19416000" />
       <workItem from="1535819374601" duration="7012000" />
       <workItem from="1535859739757" duration="13382000" />
-      <workItem from="1535881080518" duration="520000" />
+      <workItem from="1535881080518" duration="712000" />
     </task>
     <servers />
   </component>
@@ -518,7 +500,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182571000" />
+    <option name="totallyTimeSpent" value="182763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +513,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -548,7 +529,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32899022" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.23452769" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
@@ -585,7 +566,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/resources/generatorConfig.xml" />
     <entry file="file://$PROJECT_DIR$/pojo/src/main/java/com/wanglibing/pojo/webapi/User.java" />
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wanglibing/service/base/BaseWebApiService.java" />
     <entry file="file://$PROJECT_DIR$/webapi/src/main/java/com/wanglibing/webapi/mapper/mapper/IBaseServices.java" />
@@ -819,9 +799,16 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="315">
-            <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/wanglibing/mybatis/dynamicdatasource/MultiDataSourceRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
         </state>
       </provider>
     </entry>
